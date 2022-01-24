@@ -1,57 +1,58 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 
 nav: true
-display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
+**Design of an Optimal Controller for Effective Radiotherapy**
 
-{%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-{%- endif -%}
-</div>
+Languages : MATLAB\
+This work aims to design a controller to predict the optimal amount of radiation dosages using the Model Predictive Static Programming (MPSP) method. Currently, the work is being extended to take into the account the various uncertainties associated with the parameters. 
+
+-----
+
+**Reinforcement Learning Control in Uncertain Systems**
+
+Languages : Python, MATLAB, Simulink\
+This work aims to implement the various reinforcement learning strategies in order achieve trajectory tracking of a robot manipulator in the presence of uncertainties such as frictional and torque disturbances. The different strategies include Actor-Critic methods and the Deep Determinsitic Policy Gradient (DDPG) algorithm. Prior to this, the various startegies are tried and tested on the benchmark Cart-Pole problem which is subjected to frictional and wind disturbances. The GitHub repo for this project will be updated soon! 
+
+-----
+
+**Discrete-Time Uncertainty and Disturbance Estimator** \| [Code](https://github.com/Maithilishetty/UDE-DiscreteTime){:target="_blank"}
+
+Languages : MATLAB, Simulink \
+This original work attempts to extend the concept of Uncertainty and Disturbance Estimator (UDE) to the discrete-time domain wherein a
+discrete-time robust control law based on UDE has been derived. Numerical simulations have also been performed to validate the efficacy of the control algorithm. 
+
+-----
+
+**Acute Infarct Location Classification** \| [Code](https://github.com/Maithilishetty/Acute-Infarct-DL){:target="_blank"}
+
+Language : Python \
+Built a suitable CNN model to infer the acute infarct class locations on a small dataset. Further extented this to obtain the IR representation to enable the model to run on Intel NCS2. 
+
+-----
+
+**Silicon Carbide (SiC) Cycloconverter** \| [Code](https://github.com/Maithilishetty/SiC_transistor_performance_analysis){:target="_blank"} 
+
+Languages : MATLAB, Simulink \
+Presented a novel approach to design a cycloconverter using SiC MOSFET as opposed to the conventional usage of IGBT. Established a comparative study between the two with respect to Distortion and System Efficiency.
+
+-----
+
+**Neural Network Controller** \| [Code](https://github.com/Maithilishetty/NeuralNetController){:target="_blank"}
+
+Language : MATLAB \
+Implemented a neural network to control and stabilize an Inverted Pendulum. Used a feed forward neural net to stabilize the pendulum using back propagation algorithm and simulated it in MATLAB.
+
+-----
+
+**Identification and Control of Nonlinear Systems** \| [Code](https://github.com/Maithilishetty/Neural-Net-Control){:target="_blank"}
+
+Language : MATLAB \
+Designed neural network controllers for the identification and control of nonlinear dynamical systems. Performed a comparison with different algorithms like BPA and OSLA. Used the paper 'Identification and Control of Dynamical Systems using Neural Networks', by KS Narendra and K Parthasarathy as reference. 
+
+-----

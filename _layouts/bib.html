@@ -7,7 +7,7 @@
           {%- if site.data.venues[entry.abbr] -%}
           <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
           {%- else -%}
-          <abbr class="badge">{{entry.abbr}}</abbr>
+          <abbr class="badge">{{entry.abbr}} - {{entry.prestype}}</abbr>
           {%- endif -%}
         {%- endif -%}
         </div>
@@ -37,37 +37,45 @@
                 {%- endif -%}
               {%- endfor -%}
             {%- endif -%}
-            
-            {%- if forloop.length == 1 -%}
+		  
+		  {%- if forloop.length == 1 -%}
               {%- if author_is_self %}
-                <em>{{author.last}}, {{author.first}}</em>
+                <em>{{author.first}} {{author.last}}</em>
               {%- else -%}
-                {{author.last}}, {{author.first}}
+                {{author.first}} {{author.last}}
               {%- endif -%}
-            {%- else -%}
-              {%- unless forloop.last -%}
-                {% if author_is_self %}
-                  <em>{{author.last}}, {{author.first}}</em>,&nbsp;
-                {%- else -%}
-                  {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,&nbsp;
-                  {%- else -%}
-                    {{author.last}}, {{author.first}},&nbsp;
-                  {%- endif -%}
-                {%- endif -%}
-              {%- else -%}
-                {% if author_is_self -%}
-                  and <em>{{author.last}}, {{author.first}}</em>
-                {% else -%}
-                  {%- if coauthor_url -%}
-                    and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
-                  {% else -%}
-                    and {{author.last}}, {{author.first}}
-                  {%- endif -%}
-                {%- endif -%}
-              {%- endunless -%}
-            {%- endif -%}
+          {%- else -%}
+			  {% if forloop.first %}
+				{%- if author_is_self %}
+					<em>{{author.first}} {{author.last}}</em>
+				{%- else -%}
+					{% if coauthor_url %}
+						<a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+					{%- else -%}{{author.first}} {{author.last}}{%- endif -%}
+				{%- endif -%}
+			  {% elsif forloop.last %}
+				{%- if author_is_self %}
+					&nbsp;and <em>{{author.first}} {{author.last}}</em>
+				{%- else -%}
+					{% if coauthor_url %}
+						&nbsp;and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+				    {%- else -%}
+						&nbsp;and {{author.first}} {{author.last}}
+					{%- endif -%}
+				{%- endif -%}
+			  {%- else -%}
+					{%- if author_is_self %},&nbsp;<em>{{author.first}} {{author.last}}</em>
+					{%- else -%}
+						{% if coauthor_url %}
+							,&nbsp;<a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+					    {%- else -%}
+							,&nbsp;{{author.first}} {{author.last}}
+						{%- endif -%}
+					{%- endif -%}
+			{%- endif -%}
+		   {%- endif -%}
           {%- endfor %}
+		  
           </div>
 
           <!-- Journal/Book title and date -->
@@ -139,7 +147,10 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-          </div>
+		  {%- if entry.url %}
+            <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
+          {%- endif %}
+		  </div>
 
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->
@@ -154,5 +165,11 @@
             {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
           </div>
           {%- endif %}
+		  
+		  {% if entry.simple_bib %}
+          <div class="bibtex hidden">
+             {% highlight bibtex %}{{ entry.simple_bib }}{% endhighlight %}
+          </div>
+          {% endif %}
         </div>
       </div>

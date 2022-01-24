@@ -1,11 +1,27 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching & Talks
+description:
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+##### Teaching @ UMich 
 
-Organize your courses by years, topics, or universities, however you like!
+ -  **Graduate Student Instructor** | January 2022 - Present\
+	GSI for PHYSICS 251 - Physics for the Life Sciences II Lab
+
+
+ -  **Grader** | September 2021 - November 2021\
+	Grader for  AEROSP 740 - Model Predictive Control
+
+-----
+
+##### Talks
+
+ - **Design and Applications of Discrete-time Uncertainty & Disturbance Estimator - PES University, April 2021**\
+   Presented our work at the Research @ ECE faculty colloquium series at PES University. The slides for the talk can be downloaded [here](/fileshare/Presentation-UDE.pdf). 
+
+
+
+

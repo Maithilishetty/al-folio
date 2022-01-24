@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-1-4
 inline: true
 ---
 
-A simple inline announcement.
+I'll be teaching Physics 251 - Physics for the Life Sciences II Lab.

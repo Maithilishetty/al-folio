@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-09-20 
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper titled "Continuous Control of a Robot Manipulator Using Deep Deterministic Policy Gradient" has been accepted at the 2021 Indian Control Conference!
