@@ -12,8 +12,9 @@ September 2021  - Present\
 Research Supervisor : [Dr. Vasileios Tzoumas](https://vasileiostzoumas.com/){:target="_blank"}
 
  - Research Intern at the [Intelligent Robotics and Autonomy Lab](https://vasileiostzoumas.com/students/){:target="_blank"}
- - Working on Control Theory for the safe landing of autonomous drones. 
- - Applied the Kalman filter to do some really cool things you probably can't understand.
+ - Researched on the applications of koopman operator to speeden up reinforcement learning and optimization algorithms.
+ - Working on designing an online learning based controller for the safe landing of autonomous drones. 
+ 
 
 -----
 
