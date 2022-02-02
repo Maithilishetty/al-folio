@@ -10,7 +10,7 @@ horizontal: false
 **Design of an Optimal Controller for Effective Radiotherapy**
 
 Languages : MATLAB\
-This work aims to design a controller to predict the optimal amount of radiation dosages using the Model Predictive Static Programming (MPSP) method. Currently, the work is being extended to take into the account the various uncertainties associated with the parameters. 
+This work aims to design a controller to predict the optimal amount of radiation dosages using the Model Predictive Static Programming (MPSP) method. The work was extended to take into the account the various uncertainties associated with the parameters and applied on the Lotka-Volterra problem. 
 
 -----
 

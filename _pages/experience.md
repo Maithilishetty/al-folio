@@ -12,7 +12,7 @@ September 2021  - Present\
 Research Supervisor : [Dr. Vasileios Tzoumas](https://vasileiostzoumas.com/){:target="_blank"}
 
  - Research Intern at the [Intelligent Robotics and Autonomy Lab](https://vasileiostzoumas.com/students/){:target="_blank"}
- - Researched on the applications of koopman operator to speeden up reinforcement learning and optimization algorithms.
+ - Researched on the applications of koopman operator to speeden up learning and combinatorial optimization algorithms.
  - Working on designing an online learning based controller for the safe landing of autonomous drones. 
  
 
@@ -32,7 +32,7 @@ Research Supervisor : [Dr. Mukunda Bharatheesha](https://scholar.google.nl/citat
 **Research Intern \| Indian Institute of Science**
 
 Jan 2021  - May 2021\
-Research Supervisor : [Dr. Radhakanth Padhi](https://scholar.google.co.in/citations?user=Va1aENIAAAAJ&hl=en){:target="_blank"}
+Research Supervisor : [Dr. Radhakant Padhi](https://scholar.google.co.in/citations?user=Va1aENIAAAAJ&hl=en){:target="_blank"}
 
  - Research Intern at the [Integrated Control Guidance & Estimation Lab](http://aero.iisc.ac.in/people/radhakantpadhi/){:target="_blank"}
  - Designed an optimal controller for effective radiotherapy using Model Predictive Static Programming (MPSP) for impulsive systems. 
