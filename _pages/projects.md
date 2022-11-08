@@ -16,7 +16,7 @@ Researched on the use of SLAM for underwater localization and navigation. Applie
 
 **Traffic-Light Recognition using Deep Learning** \| [Code](https://github.com/Maithilishetty/Traffic-Light-Recognition){:target="_blank"}
 
-Tools: Python, TensorFlow
+Tools: Python, TensorFlow\
 Implemented Faster-RCNN and YOLOv4 to recognize traffic lights on bad weather data provided by Adastec Corp. along with collection of V2X data for sensor fusion done at MCity. Obtained a mAP of 48.79 @ 0.5% using YOLOv4. 
 
 -----
