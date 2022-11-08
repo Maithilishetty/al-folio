@@ -7,6 +7,27 @@ nav: true
 horizontal: false
 ---
 
+**Visual-Inertial SLAM in underwater scenarios** \| [Code](https://github.com/Maithilishetty/Mobile_Robotics_Team22){:target="_blank"}
+
+Tools : ROS, C++, Python\
+Researched on the use of SLAM for underwater localization and navigation. Applied several real-time image enhancement techniques resulting in performance improvement of visual-inertial ORB-SLAM3 and OKVIS algorithms. 
+
+-----
+
+**Traffic-Light Recognition using Deep Learning** \| [Code](https://github.com/Maithilishetty/Traffic-Light-Recognition){:target="_blank"}
+
+Tools: Python, TensorFlow
+Implemented Faster-RCNN and YOLOv4 to recognize traffic lights on bad weather data provided by Adastec Corp. along with collection of V2X data for sensor fusion done at MCity. Obtained a mAP of 48.79 @ 0.5% using YOLOv4. 
+
+-----
+
+**Self Driving Cars: Perception & Control** \| [Code](https://github.com/AdityaSrinivasManohar/ROB-535-Perception-Project){:target="_blank"}
+
+Tools: MATLAB, Python\
+Implemented model predictive control for dynamic obstacle avoidance and a YOLOv4 model for vehicle classification from images (1st place on the kaggle and controls leaderboard). 
+
+-----
+
 **Design of an Optimal Controller for Effective Radiotherapy**
 
 Languages : MATLAB\
@@ -25,34 +46,6 @@ This work aims to implement the various reinforcement learning strategies in ord
 
 Languages : MATLAB, Simulink \
 This original work attempts to extend the concept of Uncertainty and Disturbance Estimator (UDE) to the discrete-time domain wherein a
-discrete-time robust control law based on UDE has been derived. Numerical simulations have also been performed to validate the efficacy of the control algorithm. 
-
------
-
-**Acute Infarct Location Classification** \| [Code](https://github.com/Maithilishetty/Acute-Infarct-DL){:target="_blank"}
-
-Language : Python \
-Built a suitable CNN model to infer the acute infarct class locations on a small dataset. Further extented this to obtain the IR representation to enable the model to run on Intel NCS2. 
-
------
-
-**Silicon Carbide (SiC) Cycloconverter** \| [Code](https://github.com/Maithilishetty/SiC_transistor_performance_analysis){:target="_blank"} 
-
-Languages : MATLAB, Simulink \
-Presented a novel approach to design a cycloconverter using SiC MOSFET as opposed to the conventional usage of IGBT. Established a comparative study between the two with respect to Distortion and System Efficiency.
-
------
-
-**Neural Network Controller** \| [Code](https://github.com/Maithilishetty/NeuralNetController){:target="_blank"}
-
-Language : MATLAB \
-Implemented a neural network to control and stabilize an Inverted Pendulum. Used a feed forward neural net to stabilize the pendulum using back propagation algorithm and simulated it in MATLAB.
-
------
-
-**Identification and Control of Nonlinear Systems** \| [Code](https://github.com/Maithilishetty/Neural-Net-Control){:target="_blank"}
-
-Language : MATLAB \
-Designed neural network controllers for the identification and control of nonlinear dynamical systems. Performed a comparison with different algorithms like BPA and OSLA. Used the paper 'Identification and Control of Dynamical Systems using Neural Networks', by KS Narendra and K Parthasarathy as reference. 
+discrete-time robust control law based on UDE has been derived. Numerical simulations have also been performed to validate the efficacy of the control algorithm. Extended work on the use of observers for state estimation applied to a two-link robot manipulator. 
 
 -----
