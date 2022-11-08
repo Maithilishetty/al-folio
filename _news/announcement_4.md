@@ -1,7 +1,7 @@
 ---
 layout: default
-date: 2021-09-1 
+date: 2022-06-1 
 inline: true
 ---
 
-Started my MS in ECE at UMich!
+Starting as an intern at [MathWorks](https://www.mathworks.com/)! 
