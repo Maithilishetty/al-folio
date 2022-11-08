@@ -8,7 +8,10 @@ nav: true
 
 ##### Teaching @ UMich 
 
- -  **Graduate Student Instructor** | January 2022 - Present\
+ -  **Graduate Student Instructor** | August 2022 - Present\
+	GSI for EARTH 132 - Earth Math
+	
+ -  **Graduate Student Instructor** | January 2022 - April 2022\
 	GSI for PHYSICS 251 - Physics for the Life Sciences II Lab
 
 
