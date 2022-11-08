@@ -6,19 +6,32 @@ description:
 nav: true
 ---
 
-**Research Intern \| University of Michigan**
+**Engineering Development Group Intern \| MathWorks**
+
+June 2022  - August 2022\
+Manager : [Dr. Keith Martin](https://www.linkedin.com/in/kdmartin/){:target="_blank"}
+
+ - Worked on creating and refactoring tests for the PID simulink block.
+ - Achieved a significant reduction in overall testing time and number of libraries used while maintaining a code coverage of 91.5%
+ - Tested the control systems tuner app and fixed bugs
+ - Integrated several MATLAB control systems tools within the Robot Operating System (ROS) framework for a UAV
+ 
+-----
+
+
+**Research Assistant \| University of Michigan**
 
 September 2021  - Present\
 Research Supervisor : [Dr. Vasileios Tzoumas](https://vasileiostzoumas.com/){:target="_blank"}
 
  - Research Intern at the [Intelligent Robotics and Autonomy Lab](https://vasileiostzoumas.com/students/){:target="_blank"}
- - Researched on the applications of koopman operator to speeden up learning and combinatorial optimization algorithms.
- - Working on designing an online learning based controller for the safe landing of autonomous drones. 
+ - Researched on the applications of koopman operator to speed up learning and combinatorial optimization algorithms.
+ - Working on the design of a safe active learning controller based on Koopman theory 
  
 
 -----
 
-**Research Intern \| ARTPARK**
+**Robotics Intern \| ARTPARK**
 
 June 2021 - July 2021\
 Research Supervisor : [Dr. Mukunda Bharatheesha](https://scholar.google.nl/citations?user=zFWBaFEAAAAJ&hl=en){:target="_blank"}
