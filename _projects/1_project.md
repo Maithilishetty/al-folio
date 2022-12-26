@@ -26,7 +26,7 @@ control. The project was modeled entirely in simulink, auto-
 code generation was utilized to obtain the C code processed
 within S32K144.
 
-<iframe width="420" height="315" src="https://drive.google.com/file/d/1s90g8vkiLGhlbYOCSgmCIyB8rntlR7on/view?usp=sharing" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1s90g8vkiLGhlbYOCSgmCIyB8rntlR7on/preview" width="640" height="480" allow="autoplay"></iframe>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
