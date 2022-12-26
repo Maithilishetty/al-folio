@@ -1,24 +1,36 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Adaptive Cruise Control
+description: EECS 461 final project on building an adaptive cruise controller 
+img: assets/img/dynamic-cruise-control.jpg
 importance: 1
-category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Over the past few decades, cruise control systems have been developed to assist the driver while driving long distances.These systems were capable of performing only velocity
+control. More recently, automobiles are manufactured with a
+more dynamic version of cruise control known as adaptive
+cruise control (ACC) which is capable of performing both
+velocity and position control. As part of this project, we
+developed an adaptive cruise controller with automatic steering
+control. The haptic wheel was used as a steering wheel for
+the simulated vehicle on the simulink graphics software. The
+position of the wheel obtained using quadrature decoding is
+used to determine the angle of the front wheels. By toggling
+one of the DIP switches, we can enable or disable the ACC
+system. When disabled, we can manually control the speed of
+the vehicle using the potentiometer. When ACC is enabled,
+we use the first 8 DIP switches to set the speed of the vehicle.
+As mentioned previously, ACC performs both velocity and
+position control. When there is a lead vehicle within the
+specified safe distance ahead of our vehicle, position control is
+enabled. Otherwise, velocity control is enabled. The automatic
+steering control is used to automatically align the vehicle at
+the center of the road while performing any speed or velocity
+control. The project was modeled entirely in simulink, auto-
+code generation was utilized to obtain the C code processed
+within S32K144.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
