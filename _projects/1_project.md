@@ -6,11 +6,7 @@ img: assets/img/dynamic-cruise-control.jpg
 importance: 1
 ---
 
-Over the past few decades, cruise control systems have been developed to assist the driver while driving long distances.These systems were capable of performing only velocity
-control. More recently, automobiles are manufactured with a
-more dynamic version of cruise control known as adaptive
-cruise control (ACC) which is capable of performing both
-velocity and position control. As part of this project, we
+As part of this project, I
 developed an adaptive cruise controller with automatic steering
 control. The haptic wheel was used as a steering wheel for
 the simulated vehicle on the simulink graphics software. The
@@ -30,7 +26,7 @@ control. The project was modeled entirely in simulink, auto-
 code generation was utilized to obtain the C code processed
 within S32K144.
 
-
+<iframe width="420" height="315" src="https://drive.google.com/file/d/1s90g8vkiLGhlbYOCSgmCIyB8rntlR7on/view?usp=sharing" frameborder="0" allowfullscreen></iframe>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
