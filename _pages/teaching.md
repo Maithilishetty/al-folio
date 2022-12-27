@@ -8,22 +8,21 @@ nav: true
 
 ##### Teaching @ UMich 
 
- -  **Graduate Student Instructor** | August 2022 - Present\
+ -  **Graduate Student Instructor** | January 2023 -  Present\
+	GSI for EARTH 314 - Global and Applied Geophysics 
+
+ -  **Graduate Student Instructor** | August 2022 - December 2022\
 	GSI for EARTH 132 - Earth Math
 	
  -  **Graduate Student Instructor** | January 2022 - April 2022\
 	GSI for PHYSICS 251 - Physics for the Life Sciences II Lab
-
-
- -  **Grader** | September 2021 - November 2021\
-	Grader for  AEROSP 740 - Model Predictive Control
 
 -----
 
 ##### Talks
 
  - **Design and Applications of Discrete-time Uncertainty & Disturbance Estimator - PES University, April 2021**\
-   Presented our work at the Research @ ECE faculty colloquium series at PES University. The slides for the talk can be downloaded [here](/fileshare/Presentation-UDE.pdf). 
+   Presented our work at the Research @ ECE faculty colloquium series at PES University. [[Slides]](/fileshare/Presentation-UDE.pdf) and [[Video]](https://drive.google.com/file/d/1TjXtQ4KWB_8tHC9QQ0vClPCf5nZjEv0i/view?usp=sharing). 
 
 
 
