@@ -27,10 +27,11 @@ code generation was utilized to obtain the C code processed
 within S32K144.
 
 
+<p align="center"><iframe src="https://drive.google.com/file/d/1s90g8vkiLGhlbYOCSgmCIyB8rntlR7on/preview" width="640" height="480" allow="autoplay"></iframe>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% <iframe src="https://drive.google.com/file/d/1s90g8vkiLGhlbYOCSgmCIyB8rntlR7on/preview" width="640" height="480" allow="autoplay"></iframe> %}
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
