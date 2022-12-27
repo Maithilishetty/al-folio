@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Reinforcement learning & adaptive control
+description: Projects on RL and adaptive control
+img: assets/img/rl.png
 importance: 4
-category: fun
 ---
 
 Every project has a beautiful feature showcase page.
