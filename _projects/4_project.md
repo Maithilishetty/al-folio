@@ -3,7 +3,7 @@ layout: page
 title: Optimal control for effective radiotherapy 
 description: Internship project at Indian Institute of Science (IISc)
 img: assets/img/cancer.png
-importance: 3
+importance: 4
 ---
 
 Every project has a beautiful feature showcase page.

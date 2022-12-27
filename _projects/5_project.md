@@ -3,8 +3,7 @@ layout: page
 title: Uncertainty and Disturbance Estimator 
 description: Undergraduate research project at PES University
 img: assets/img/robot.jpg
-importance: 3
-category: fun
+importance: 5
 ---
 
 Every project has a beautiful feature showcase page.

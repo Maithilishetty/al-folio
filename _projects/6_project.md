@@ -3,7 +3,7 @@ layout: page
 title: Reinforcement learning & adaptive control
 description: Projects on RL and adaptive control
 img: assets/img/rl.png
-importance: 4
+importance: 6
 ---
 
 Every project has a beautiful feature showcase page.
