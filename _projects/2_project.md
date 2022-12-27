@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Visual-intertial underwater SLAM
+title: Visual-inertial underwater SLAM
 description: EECS 568 final course project
 img: assets/img/dataset_image.png
 importance: 2

@@ -1,11 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Traffic light recognition 
+description: Project in collaboration with Adastec corporation
+img: assets/img/demo_yolo.png
 importance: 3
-category: work
 ---
 
 Every project has a beautiful feature showcase page.

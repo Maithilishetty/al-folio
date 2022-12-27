@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Optimal control for effective radiotherapy 
+description: Internship project at Indian Institute of Science (IISc)
+img: assets/img/cancer.png
 importance: 3
-category: fun
 ---
 
 Every project has a beautiful feature showcase page.

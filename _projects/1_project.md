@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adaptive Cruise Control
-description: EECS 461 final project on building an adaptive cruise controller 
+description: EECS 461 final course project
 img: assets/img/dynamic-cruise-control.jpg
 importance: 1
 ---
