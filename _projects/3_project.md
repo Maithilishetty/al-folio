@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Traffic light recognition 
-description: Project in collaboration with Adastec corporation
+description: Project with Adastec corporation
 img: assets/img/demo_yolo.png
 importance: 3
 ---
