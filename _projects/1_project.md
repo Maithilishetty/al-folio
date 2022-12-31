@@ -6,7 +6,7 @@ img: assets/img/dynamic-cruise-control.jpg
 importance: 1
 ---
 
-As part of this project, I
+As part of this project, I 
 developed an adaptive cruise controller with automatic steering
 control. The haptic wheel was used as a steering wheel for
 the simulated vehicle on the simulink graphics software. The
@@ -24,7 +24,7 @@ steering control is used to automatically align the vehicle at
 the center of the road while performing any speed or velocity
 control. The project was modeled entirely in simulink, auto-
 code generation was utilized to obtain the C code processed
-within S32K144.
+within S32K144. 
 
 
 <div class="row">
@@ -36,6 +36,6 @@ within S32K144.
     </div>
 </div>
 <div class="caption">
-   Left, video of the working final project. Right: setup of the haptic wheel. 
+   Left: video of the working final project. Right: setup of the haptic wheel. 
 </div>
 
