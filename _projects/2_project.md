@@ -32,10 +32,10 @@ The main contributions of this project are:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/visual odometry.png" width=350 height=300%}
+        {% include figure.html path="assets/img/visual odometry.png" width="350" height="300" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/orbslam.png" width=350 height=300%}
+        {% include figure.html path="assets/img/orbslam.png" width="350" height="300" %}
     </div>
 </div>
 <div class="caption">
