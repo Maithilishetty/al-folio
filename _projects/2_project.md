@@ -39,10 +39,20 @@ The main contributions of this project are:
     </div>
 </div>
 <div class="caption">
-   Left: ROV used with an underwater image of the seabed and the estimated trajectory in red. Right: ORB-SLAM3 system components
+   Left: ROV used with an underwater image of the seabed and the estimated trajectory in red. Right: ORB-SLAM3 system components.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+Both OKVIS and ORB-SLAM3 rely on feature recognition and matching to calculate the estimated change in state from camera frames. 
+Therefore, increased feature matching results in reduced failures and better tracking in both algorithms. This can be seen in the below set of figures for ORB-SLAM3. 
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/unmatch.png" width="350" height="300" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/enmatch.png" %}
+    </div>
+</div>
+<div class="caption">
+   Left: Matches before enhancement. Right: Matches after enhancement.
+</div>

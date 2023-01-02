@@ -26,7 +26,6 @@ control. The project was modeled entirely in simulink, auto-
 code generation was utilized to obtain the C code processed
 within S32K144. 
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <iframe src="https://drive.google.com/file/d/1s90g8vkiLGhlbYOCSgmCIyB8rntlR7on/preview" width="350" height="323" allow="autoplay"></iframe>
@@ -38,4 +37,8 @@ within S32K144.
 <div class="caption">
    Left: video of the working final project. Right: setup of the haptic wheel. 
 </div>
+
+
+Skills & Tools: MATLAB, Simulink, C Programming, NXP S32K144 Microcontroller
+
 
