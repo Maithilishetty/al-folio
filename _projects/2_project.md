@@ -47,7 +47,7 @@ Therefore, increased feature matching results in reduced failures and better tra
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/unmatch.png" width="350" height="300" %}
+        {% include figure.html path="assets/img/unmatch.png" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/enmatch.png" %}
