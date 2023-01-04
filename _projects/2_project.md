@@ -62,10 +62,10 @@ The trajectory estimation performance is evaluated based on Absolute Translation
 
 <table>
 <colgroup>
-<col width="40%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
+<col width="50%" />
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -102,6 +102,8 @@ The trajectory estimation performance is evaluated based on Absolute Translation
 </tr>
 </tbody>
 </table>
+
+
 
 Overall, it can be concluded that the image enhancement techniques can generally improve the trajectory estimation performance. Especially, in the case of 
 OKVIS, the estimated trajectory from enhanced image yields significantly lower ATE error. 
