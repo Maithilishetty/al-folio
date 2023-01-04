@@ -60,12 +60,48 @@ Therefore, increased feature matching results in reduced failures and better tra
 
 The trajectory estimation performance is evaluated based on Absolute Translational Error (ATE). The error statistics is shown in the below table for both the algotithms with/without image enhancement.
 
-| Method                | Mean        | RMSE        | STD         | 
-| --------------------- | ----------- | ----------- | ----------- |
-| Unenhanced OKVIS      | 1.782       | 2.011       | 0.932       |
-| Enhanced OKVIS        | 0.727       | 0.820       | 0.378       |
-| Unenhanced ORB-SLAM3  | 1.867       | 2.190       | 1.144       |
-| Enhanced ORB-SLAM3    | 1.873       | 2.091       | 0.929       |
+<table>
+<colgroup>
+<col width="40%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>Mean</th>
+<th>RMSE</th>
+<th>STD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">Unenhanced OKVIS</td>
+<td markdown="span">1.782</td>
+<td markdown="span">2.011</td>
+<td markdown="span">0.932</td>
+</tr>
+<tr>
+<td markdown="span">Enhanced OKVIS</td>
+<td markdown="span">0.727</td>
+<td markdown="span">0.820</td>
+<td markdown="span">0.378</td>
+</tr>
+<tr>
+<td markdown="span">Unenhanced ORB-SLAM3</td>
+<td markdown="span">1.867</td>
+<td markdown="span">2.190</td>
+<td markdown="span">1.144</td>
+</tr>
+<tr>
+<td markdown="span">Enhanced ORB-SLAM3</td>
+<td markdown="span">1.873</td>
+<td markdown="span">2.091</td>
+<td markdown="span">0.929</td>
+</tr>
+</tbody>
+</table>
 
 Overall, it can be concluded that the image enhancement techniques can generally improve the trajectory estimation performance. Especially, in the case of 
 OKVIS, the estimated trajectory from enhanced image yields significantly lower ATE error. 
