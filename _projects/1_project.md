@@ -31,7 +31,7 @@ within S32K144.
         <iframe src="https://drive.google.com/file/d/1s90g8vkiLGhlbYOCSgmCIyB8rntlR7on/preview" width="350" height="323" allow="autoplay"></iframe>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/haptic.jpeg" %}
+        {% include figure.html path="assets/img/haptic.jpg" %}
     </div>
 </div>
 <div class="caption">
