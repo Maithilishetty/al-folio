@@ -16,7 +16,9 @@ The second phase of the project involved extending this technique to account for
 This uses the technique of unscented optimal control with MPSP for impulsive systems. I formulated the mathematics for this controller to achieve the final time constraints as well as mimimize the final time variance for impulsive systems. An example prey-predator problem containing parametric uncertainties was discussed to verify
 the algorithm. 
 
-The above two projects are explained in greater details in the report: 
+The above two projects are explained in greater details in the following two reports: 
+
+<object data="/assets/pdf/Cancer-IMPSP.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 <object data="/assets/pdf/U-IMPSP.pdf" width="1000" height="1000" type='application/pdf'></object>
 
