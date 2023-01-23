@@ -18,6 +18,9 @@ For more details, refer to the below slides:
 
 <object data="/assets/pdf/ICC_Presentation.pdf" width="1000" height="1000" type='application/pdf'></object>
 
+&nbsp;
+&nbsp;
+
 **Adaptive Control: NAVARCH 583 Final Project** 
 
 Transient response of adaptive systems is not predefined while their steady state behaviour can
