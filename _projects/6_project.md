@@ -6,13 +6,13 @@ img: assets/img/rl.png
 importance: 6
 ---
 
-As part of my bachelor thesis, I designed a deep determinstic policy gradient algorithm to control a robot manioulator in uncertain environments. Pimarily, deep reinforcement learning (DRL) addresses the
+As part of my bachelor thesis, I designed a deep determinstic policy gradient algorithm to control a robot manipulator in uncertain environments. Primarily, deep reinforcement learning (DRL) addresses the
 problems that previously limited the performance of RL algorithms while working with high-dimensional state and action
 spaces. In this project, I explored the deep deterministic policy gradient (DDPG) algorithm that operates over continuous action spaces. The application of reference tracking for a two-
 link robot manipulator (TLRM) in uncertain environments was considered. The TLRM is subjected to uncertainties such
 as frictional forces and external torque disturbances. In the simulation study, comparison of the performance of the RL-
 based controller with the well-known proportional-derivative (PD) controller. Results indicate a considerable improvement
-in the mean square error (MSE) and variance accounted for (VAF) metrics when the RL-based controller is utilized. This paper was published as part of the proceddings of the [Indian Control Conference, 2021](https://ieeexplore.ieee.org/document/9703155)
+in the mean square error (MSE) and variance accounted for (VAF) metrics when the RL-based controller is utilized. This paper was published as part of the proceedings of the [Indian Control Conference, 2021](https://ieeexplore.ieee.org/document/9703155)
 
 For more details, refer to the below slides: 
 
