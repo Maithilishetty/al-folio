@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://maithilishetty.github.io/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Maithili  Shetty | Page not found</title>
+    <title>Maithili  Shetty | Adaptive Cruise Control</title>
     <meta name="author" content="Maithili  Shetty" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="EECS 461 final course project" />
 
 
     <!-- Bootstrap & MDB -->
@@ -30,7 +30,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>M</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://maithilishetty.github.io/404.html">
+    <link rel="canonical" href="https://maithilishetty.github.io/projects/1_project/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -95,12 +95,59 @@
       <!-- page.html -->
         <div class="post">
 
-          <header class="post-header"><h1 class="post-title">Page not found</h1>
-<p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+          <header class="post-header"><h1 class="post-title">Adaptive Cruise Control</h1>
+<p class="post-description">EECS 461 final course project</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://maithilishetty.github.io/">here</a>.</p>
+            <p>As part of this project, I 
+developed an adaptive cruise controller with automatic steering
+control. The haptic wheel was used as a steering wheel for
+the simulated vehicle on the simulink graphics software. The
+position of the wheel obtained using quadrature decoding is
+used to determine the angle of the front wheels. By toggling
+one of the DIP switches, we can enable or disable the ACC
+system. When disabled, we can manually control the speed of
+the vehicle using the potentiometer. When ACC is enabled,
+we use the first 8 DIP switches to set the speed of the vehicle.
+As mentioned previously, ACC performs both velocity and
+position control. When there is a lead vehicle within the
+specified safe distance ahead of our vehicle, position control is
+enabled. Otherwise, velocity control is enabled. The automatic
+steering control is used to automatically align the vehicle at
+the center of the road while performing any speed or velocity
+control. The project was modeled entirely in simulink, auto-
+code generation was utilized to obtain the C code processed
+within S32K144.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe src="https://drive.google.com/file/d/1s90g8vkiLGhlbYOCSgmCIyB8rntlR7on/preview" width="350" height="323" allow="autoplay"></iframe>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <!--<source media="(max-width: 480px)" srcset="/assets/img/haptic-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/haptic-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/haptic-1400.webp" />
+    --> 
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/haptic.jpg">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+   Left: video of the working final project. Right: setup of the haptic wheel. 
+</div>
+
+<p>Skills &amp; Tools: MATLAB, Simulink, C Programming, NXP S32K144 Microcontroller</p>
+
 
           </article>
 

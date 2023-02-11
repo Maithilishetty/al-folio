@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://maithilishetty.github.io/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Maithili  Shetty | Page not found</title>
+    <title>Maithili  Shetty | Optimal control for effective radiotherapy</title>
     <meta name="author" content="Maithili  Shetty" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Internship project at Indian Institute of Science (IISc)" />
 
 
     <!-- Bootstrap & MDB -->
@@ -30,7 +30,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>M</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://maithilishetty.github.io/404.html">
+    <link rel="canonical" href="https://maithilishetty.github.io/projects/4_project/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -95,12 +95,27 @@
       <!-- page.html -->
         <div class="post">
 
-          <header class="post-header"><h1 class="post-title">Page not found</h1>
-<p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+          <header class="post-header"><h1 class="post-title">Optimal control for effective radiotherapy</h1>
+<p class="post-description">Internship project at Indian Institute of Science (IISc)</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://maithilishetty.github.io/">here</a>.</p>
+            <p>This project was carried out as part of my semester long internship at the Indian Institute of Science. 
+During this internship, I simulated an optimal controller for effective radiotherapy using Model Predictive Static Programming (MPSP). This technique aims to solve 
+the originial nonlinear optimal control problem in a computationally efficient manner. It derives it’s ideas from Model Predictive Control (MPC) and Approximate Dynamic Programming (ADP).
+The initial phase of my project was to use a modified MPSP technique called Impulsive-MPSP or I-MPSP to determine the distribution of radiation dosages to drive the number of cancer cells to zero using external beam radiotherapy. To model 
+the tumor dynamics, a two-compartment oxygen model was utilized. This was a re-implementation of a <a href="https://www.sciencedirect.com/science/article/pii/S147466701643497X" target="_blank" rel="noopener noreferrer">prior</a> work in this area.</p>
+
+<p>The second phase of the project involved extending this technique to account for the uncertainites in the model parameters and initial conditions. To do so, I designed a new techique known as Unscented MPSP for Impulsive Systems. 
+This uses the technique of unscented optimal control with MPSP for impulsive systems. I formulated the mathematics for this controller to achieve the final time constraints as well as mimimize the final time variance for impulsive systems. An example prey-predator problem containing parametric uncertainties was discussed to verify
+the algorithm.</p>
+
+<p>The above two projects are explained in greater details in the following two reports:</p>
+
+<object data="/assets/pdf/Cancer-IMPSP.pdf" width="1000" height="1000" type="application/pdf"></object>
+
+<object data="/assets/pdf/U-IMPSP.pdf" width="1000" height="1000" type="application/pdf"></object>
+
 
           </article>
 

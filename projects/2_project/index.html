@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://maithilishetty.github.io/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Maithili  Shetty | Page not found</title>
+    <title>Maithili  Shetty | Visual-inertial SLAM</title>
     <meta name="author" content="Maithili  Shetty" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="EECS 568 final course project" />
 
 
     <!-- Bootstrap & MDB -->
@@ -30,7 +30,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>M</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://maithilishetty.github.io/404.html">
+    <link rel="canonical" href="https://maithilishetty.github.io/projects/2_project/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -95,12 +95,172 @@
       <!-- page.html -->
         <div class="post">
 
-          <header class="post-header"><h1 class="post-title">Page not found</h1>
-<p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+          <header class="post-header"><h1 class="post-title">Visual-inertial SLAM</h1>
+<p class="post-description">EECS 568 final course project</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://maithilishetty.github.io/">here</a>.</p>
+            <p>Simultaneous localization and mapping (SLAM) in
+underwater environments pose major challenges due to limited
+lighting, turbidity, lack of relevant features, imprecision of sen-
+sors, presence of marine currents, etc. Therefore, in this project
+we design a real-time image enhancement algorithm for visual
+simultaneous localization and mapping (SLAM) for autonomous
+underwater vehicles (AUV). Compared to atmospheric environ-
+ments, underwater environment have issues with low contrast
+and color distortion. Our method focuses on underwater gray-
+scale image enhancement for a real-world dataset by using a
+simplified enhancement model. In this project, the visual-inertial
+SLAM methods such as ORB-SLAM3 and Open Keyframe-based
+Visual-Inertial Odometry (OKVIS) are used. The results indicate
+that the enhanced images have better performance than the
+original images in feature points extraction and overall tracking
+performance.</p>
+
+<p>The main contributions of this project are:</p>
+<ol>
+  <li>Application and performance analysis of the recently developed ORB-SLAM3 method in underwater environments.</li>
+  <li>Integration of real-time image enhancement pipeline within ORB-SLAM3 and OKVIS.</li>
+  <li>Performance comparison based on absolute translational error (ATE).</li>
+</ol>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <!--<source media="(max-width: 480px)" srcset="/assets/img/visual%20odometry-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/visual%20odometry-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/visual%20odometry-1400.webp" />
+    --> 
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/visual%20odometry.png">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <!--<source media="(max-width: 480px)" srcset="/assets/img/orbslam-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/orbslam-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/orbslam-1400.webp" />
+    --> 
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/orbslam.png">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+   Left: ROV used with an underwater image of the seabed and the estimated trajectory in red. Right: ORB-SLAM3 system components.
+</div>
+
+<p>Both OKVIS and ORB-SLAM3 rely on feature recognition and matching to calculate the estimated change in state from camera frames. 
+Therefore, increased feature matching results in reduced failures and better tracking in both algorithms. This can be seen in the below set of figures for ORB-SLAM3.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <!--<source media="(max-width: 480px)" srcset="/assets/img/unmatch-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/unmatch-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/unmatch-1400.webp" />
+    --> 
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/unmatch.png">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <!--<source media="(max-width: 480px)" srcset="/assets/img/enmatch-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/enmatch-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/enmatch-1400.webp" />
+    --> 
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/enmatch.png">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+   Left: Matches before enhancement. Right: Matches after enhancement.
+</div>
+
+<p>The trajectory estimation performance is evaluated based on Absolute Translational Error (ATE). The error statistics is shown in the below table for both the algotithms with/without image enhancement.</p>
+
+<table>
+<colgroup>
+<col width="55%">
+<col width="15%">
+<col width="15%">
+<col width="15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>Mean</th>
+<th>RMSE</th>
+<th>STD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unenhanced OKVIS</td>
+<td>1.782</td>
+<td>2.011</td>
+<td>0.932</td>
+</tr>
+<tr>
+<td>Enhanced OKVIS</td>
+<td>0.727</td>
+<td>0.820</td>
+<td>0.378</td>
+</tr>
+<tr>
+<td>Unenhanced ORB-SLAM3</td>
+<td>1.867</td>
+<td>2.190</td>
+<td>1.144</td>
+</tr>
+<tr>
+<td>Enhanced ORB-SLAM3</td>
+<td>1.873</td>
+<td>2.091</td>
+<td>0.929</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p>
+
+<p>Overall, it can be concluded that the image enhancement techniques can generally improve the trajectory estimation performance. Especially, in the case of 
+OKVIS, the estimated trajectory from enhanced image yields significantly lower ATE error.</p>
+
+<p>For more details, see the attched report:</p>
+
+<object data="/assets/pdf/Final_Project_Report_Team_22.pdf" width="1000" height="1000" type="application/pdf"></object>
+
 
           </article>
 

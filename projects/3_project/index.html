@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://maithilishetty.github.io/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Maithili  Shetty | Page not found</title>
+    <title>Maithili  Shetty | Traffic light recognition</title>
     <meta name="author" content="Maithili  Shetty" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Project with Adastec corporation" />
 
 
     <!-- Bootstrap & MDB -->
@@ -30,7 +30,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>M</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://maithilishetty.github.io/404.html">
+    <link rel="canonical" href="https://maithilishetty.github.io/projects/3_project/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -95,12 +95,73 @@
       <!-- page.html -->
         <div class="post">
 
-          <header class="post-header"><h1 class="post-title">Page not found</h1>
-<p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+          <header class="post-header"><h1 class="post-title">Traffic light recognition</h1>
+<p class="post-description">Project with Adastec corporation</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://maithilishetty.github.io/">here</a>.</p>
+            <p>This project was in collaboration with <a href="https://www.adastec.com/" target="_blank" rel="noopener noreferrer">Adastec Corporation</a> as part of my Techlab @ MCity course. ADASTEC specializes in the delivery of level 4 automated driving software that is ready for real-world transit application. As part of our winter 2022 project, we implemented traffic light recognition using Deep Learning.</p>
+
+<p>Traffic light recognition is an important safety feature for autonomous vehicles. In this project, we developed a deep learning model for traffic light recognition using the Faster RCNN and YOLOv4 algorithms.The Faster RCNN algorithm is a popular choice for object detection tasks because it is both accurate and efficient. 
+For more details on this methods, see <a href="https://arxiv.org/abs/1506.01497" target="_blank" rel="noopener noreferrer">here</a>. For the purpose of training this model, we make use of the Tensorflow object detection API.
+YOLOv4, on the other hand, is a newer algorithm that has demonstrated state-of-the-art performance on a variety of object detection benchmarks. 
+To train and evaluate our models, we used the <a href="https://hci.iwr.uni-heidelberg.de/content/bosch-small-traffic-lights-dataset" target="_blank" rel="noopener noreferrer">BOSCH Small Traffic Light Dataset</a>.</p>
+
+<p>The results were also tested by the data collected at MCity and also with that provided by Adastec. The below set of figures show the detection performance of YOLOv4.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <!--<source media="(max-width: 480px)" srcset="/assets/img/chart_yolov4_6000-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/chart_yolov4_6000-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/chart_yolov4_6000-1400.webp" />
+    --> 
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/chart_yolov4_6000.png">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <!--<source media="(max-width: 480px)" srcset="/assets/img/chart_yolov4-bosch_11100-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/chart_yolov4-bosch_11100-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/chart_yolov4-bosch_11100-1400.webp" />
+    --> 
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/chart_yolov4-bosch_11100.png">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+   Left: Performance of YOLOv4 with the pre-trained model. Right: Performance of YOLOv4 with additional training of upto 48 hours. 
+</div>
+
+<p>The below videos demonstrate the performance of the model for the MCity and Adastec data. It can be seen that the model is capable of predicting the location and the state of the traffic light with increased accuracy. The extended goal of this project is to fuse V2X and deep learning to make robust detections and classifications of the traffic signals especially during adverse weather conditions. Additionally, as part of the project we collected SPaT messages from the Mcity testing facility.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe src="https://drive.google.com/file/d/1sEHBhkTVZHOAnWgS7GgNStrNX__WLE4U/preview" width="350" height="323" allow="autoplay"></iframe>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe src="https://drive.google.com/file/d/1QGdxSzRrVoG3RrqHWJp5-BbPZdsuB_fy/preview" width="350" height="323" allow="autoplay"></iframe>
+    </div>
+</div>
+<div class="caption">
+   Left: Testing the model on Mcity Data. Right: Testing the model on Adastec Data (particulary data collected in bad weather). 
+</div>
 
           </article>
 
